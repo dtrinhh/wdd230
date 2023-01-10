@@ -1,0 +1,41 @@
+/* .main-grid {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+  } */
+
+.head-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: olivedrab;
+  }
+
+.head-name {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.header-photo {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.food-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  background-color: olivedrab;
+}
+
+body {
+  text-align: center;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;  
+}
