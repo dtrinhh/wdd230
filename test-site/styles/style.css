@@ -15,7 +15,7 @@
   }
 
 .head-name {
-    grid-column: 4;
+    grid-column: 3;
     grid-row: 2;
 }
 
@@ -24,11 +24,17 @@
   grid-row: 2;
 }
 
-.food-grid {
+/* .food-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
   background-color: olivedrab;
+} */
+
+footer {
+  display: block;
+  background-color: olivedrab;
+  border-radius: 20px;
 }
 
 body {
