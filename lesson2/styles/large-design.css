@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    font-family: 'Lato','Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.main-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding: 15px;
+}
+
+figure {
+    background-color: black;
+    border-radius: 15px 15px 0px 0px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    margin: 0;
+}
+
+.main-grid h3 {
+    font-family: 'Lato', 'Poppins' sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 14px 14px 0px 0px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    
+}
+
+.main-grid p {
+    margin: 0;
+    padding: 0px 10px 5px 10px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.main-grid a {
+    margin: right;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.images {
+    padding: 25px;
+    margin: 0;
+}
+
+.images img {
+    width: 100%;
+}
+
+footer {
+    text-align: center; 
+    text-align: center;
+    font-family: 'Lato', 'Poppins' sans-serif;
+    background-color: black;
+    padding: 4px;
+    color: white;
+}
