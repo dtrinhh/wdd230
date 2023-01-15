@@ -3,6 +3,9 @@ h1, h2 {
     font-family: 'Lato','Poppins', sans-serif;
     color: white;
 }
+header h2{
+    color:white;
+}
 
 header {
     background-color: black;
