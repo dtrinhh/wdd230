@@ -1,0 +1,33 @@
+nav{
+    background-color: white;
+    padding: 1em;
+    border-radius: 0px 0px 50px 50px;
+  /*   font-color: #000000; */
+  }
+  
+  nav li a {
+  text-decoration: none;
+  }
+  
+  nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  
+  nav a{
+    color: black;
+    font-size: 1.1em;
+  }
+  
+  nav a:visited{
+    color: #E54B4B;
+  }
+  
+  nav a:hover{
+    color: #008DD5;
+  }
+  
+  nav a:active {
+    color: teal;
+  }
